@@ -1,4 +1,4 @@
-variable "project" {
+variable "project_name" {
     default = "roboshop"
 }
 
@@ -6,10 +6,10 @@ variable "environment" {
     default = "dev"
 }
 
-variable "zone_id" {
-    default = "Z032558618100M4EJX8X4"
-}
-
-variable "zone_name" {
-    default = "bharath2103.site"
+variable "common_tags" {
+    default = {
+        Project = "roboshop"
+        Environment = "dev"
+        Terraform = "true"
+    }
 }
