@@ -1,8 +1,0 @@
-# Terraform
-**/.terraform/
-**/*.tfstate
-**/*.tfstate.*
-crash.log
-
-# Optional - keep if you don't want to version the lock file
-# **/.terraform.lock.hcl
